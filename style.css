@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto,  sans-serif, fontawesome;
+}
+body{
+    background-color: #f1f1f1;
+  
+
+}
+
+.body{  
+    background-color: #f1f1f1;
+
+    width: 73%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+}
+.left-side{
+    box-shadow:5px 10px 10px 10px rgba(166, 165, 165, 0.2);
+    background-color: white;
+
+width: 30%;
+height: auto;
+position: relative;
+margin-top: 10px;
+}
+.left-side .image {
+    position: relative;
+    display: inline-block; 
+}
+
+.left-side img {
+    display: block;
+    width: 100%;
+}
+
+.left-side h2 {
+    position: absolute;
+    bottom: 10px; 
+    left: 10px; 
+    color: #333; 
+    font-weight: 200;
+}
+.right-side{  
+    box-shadow:5px 10px 10px 10px rgba(166, 165, 165, 0.2);
+    background-color: #fff;
+    width: 65%;
+    margin-left: 20px;
+
+    margin-top: 10px;
+}
+.skill{
+    margin: 10px;
+}
+.line{
+    width: 95%;
+    margin: 10px 10px 20px 10px ;
+    border: none;
+    border-top: 1px solid #e0e0e0;
+}
+.skill span {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.progress {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    height: 20px;
+    
+}
+
+.progress-bar {
+    background-color: #009688; 
+    height: 100%;
+    line-height: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+    padding-right: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.experience
+{   
+    
+
+    
+    width:100%;
+}
+
+.education{
+    margin-top: 20px;
+    
+}
+
+.language{
+
+    margin-top: 30px;
+}
+
+@media (max-width:768px){
+    .left-side{
+        width: 100%;
+        margin-top: 0;
+    }
+    .body{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .right-side{
+        width: 100%;
+        margin-left: 0;
+    }
+}
